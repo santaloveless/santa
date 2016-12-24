@@ -1,0 +1,141 @@
+.nav {
+  padding: 60px 15% 0;
+  color: #999;
+  font-size: 14px;
+}
+
+.nav-item {
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  margin-right: 40px;
+  transition: all ease-out 0.3s;
+}
+
+.nav-item.selected {
+  color: #333;
+  border-bottom: 1px solid #333;
+}
+
+.content {
+  overflow: hidden;
+}
+
+.pages {
+  width: 100%;
+  font-size: 0%;
+  white-space: nowrap;
+  transition: all ease-out .5s;
+}
+
+.page {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+
+.list {
+  width: 800px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 80px auto 0;
+}
+
+.item {
+  position: relative;
+  width: 160px;
+  margin: 0 6% 50px;
+  overflow: hidden;
+}
+
+.img {
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  opacity: 0.4;
+  transition: opacity linear 0.3s;
+}
+
+img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.title {
+  color: #666;
+  font-size: 16px;
+  text-align: center;
+  margin: 20px 0 10px;
+}
+
+.desc {
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+}
+
+.about {
+  width: 1000px;
+  margin: 120px auto 0;
+  /*height: 100px;*/
+  /*background-color: #eee;*/
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.left {
+  width: 220px;
+  margin-right: 60px;
+  padding-top: 30px;
+}
+
+.portrait {
+  display: block;
+  width: 160px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.download {
+  width: 220px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  font-size: 16px;
+  background-color: #333;
+  margin-top: 60px;
+}
+
+.right {
+  white-space: normal;
+}
+
+.welcome {
+  color: #eee;
+  font-size: 50px;
+}
+
+.name {
+  color: #333;
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+.intro {
+  line-height: 22px;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.desire {
+  color: #333;
+  font-size: 20px;
+  margin-top: 70px;
+}
