@@ -1,0 +1,79 @@
+body {
+  font-weight: normal;
+  background: #f9f9f9 url(../images/motion_header.jpg) no-repeat 0 0/100% auto;
+}
+
+.content {
+  width: 1000px;
+  margin: 450px auto 0;
+  background-color: #fff;
+}
+
+.title {
+  color: #333;
+  font-size: 30px;
+  text-align: center;
+  padding: 70px 0 20px;
+}
+
+.note {
+  line-height: 24px;
+  color: #999;
+  font-size: 12px;
+  text-align: center;
+}
+
+.note span {
+  color: #f00;
+}
+
+.sections {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.text {
+  padding: 50px;
+}
+
+.text1 {
+  line-height: 36px;
+  text-align: center;
+  color: #333;
+  font-size: 20px;
+  padding: 50px 90px;
+}
+
+.title1 {
+  line-height: 60px;
+  color: #333;
+  font-size: 26px;
+}
+
+.text2 {
+  line-height: 36px;
+  color: #444;
+  font-size: 20px;
+}
+
+.suggestion {
+  line-height: 24px;
+  color: #333;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.pb300 {
+  padding-bottom: 300px;
+}
