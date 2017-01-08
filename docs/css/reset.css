@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing:border-box;
-  font-family: "pingfang";
+  /*font-family: "pingfang";*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -47,7 +47,7 @@ input::-webkit-search-cancel-button {
 	display: none;
 }
 
-@font-face {
+/*@font-face {
  font-family: 'pingfang';
- src: url('./font/PingFangRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
-}
+ src: url('./font/PingFangRegular.ttf')  format('truetype');
+}*/
