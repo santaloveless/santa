@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="./css/reset.css" media="screen" />
+  <link rel="stylesheet" href="./css/video.css" media="screen" />
+	<title>video</title>
+	</head>
+<body>
+	<section class="content">
+		<header class="header">
+			<h1 class="title1">新闻版块上视频功能</h1>
+			<p class="text1 w300">后被玩家赋予一种积极、超越、勇敢的精神内涵，在年轻人中具有普遍的影响力，已经逐步成为当下最流行的正能量传递口号。</p>
+			<div class="img-list">
+				<img src="http://i-3.497.com/2016/8/2/9bab16b7-b7ae-4ac9-97ec-b088957797e6.jpg" />
+				<img src="http://i-3.497.com/2016/8/2/9bab16b7-b7ae-4ac9-97ec-b088957797e6.jpg" />
+			</div>
+		</header>
+		<section class="section1">
+			<h1 class="title2">业务计划</h1>
+			<p class="text2">后被玩家赋予一种积极、超越、勇敢的精神内涵，在年轻人中具有普遍的影响力，已经逐步成为当下最流行的正能量传递口号。</p>
+			<h1 class="title2">需求内容</h1>
+			<p class="text2">后被玩家赋予一种积极、<br />超越、勇敢的精神内涵，<br />在年轻人中具有普遍的影响力，<br />已经逐步成为当下最流行的正能量传递口号。</p>
+		</section>
+		<img src="http://i2.hdslb.com/bfs/archive/904e768e5188740297cef70ef8449bc455bae30a.jpg" class="img1" />
+		<section class="section2">
+			<h1 class="title3">视频多种状态归纳</h1>
+			<p class="text3">后被玩家赋予一种积极、超越、勇敢的精神内涵，在年轻人中具有普遍的影响力，已经逐步成为当下最流行的正能量传递口号。后被玩家赋予一种积极、超越、勇敢的精神内涵，在年轻人中具有普遍的影响力，已经逐步成为当下最流行的正能量传递口号。</p>
+		</section>
+		<img src="http://i1.hdslb.com/bfs/archive/9aa2fb754565fa54b2dafc9da1c3374f5ec003d3.jpg" class="img1">
+		<section class="section3">
+			<h1 class="title3">视频入口</h1>
+			<p class="text3">后被玩家赋予一种积极、超越、勇敢的精神内涵，在年轻人中具有普遍的影响力，已经逐步成为当下最流行的正能量传递口号。后被玩家赋予一种积极、超越、勇敢的精神内涵，在年轻人中具有普遍的影响力，已经逐步成为当下最流行的正能量传递口号。</p>
+			<img src="./images/screen.png" class="screen1 pos1" />
+			<img src="./images/screen.png" class="screen1 pos2" />
+		</section>
+		<section class="section4">
+			<div class="triangle"></div>
+			<img src="./images/phone.png" class="phone" />
+			<img src="http://p0.qhimg.com/t01ff6e40d5085c358d.jpg" class="photo pos1" />
+			<img src="http://img1.gtimg.com/gamezone/pics/hv1/68/86/2069/134558723.jpg" class="photo pos2" />
+		</section>
+		<section class="section5">
+			<div class="context">
+				<h1 class="title1">多种状态引导用户操作</h1>
+				<p class="text1">后被玩家赋予一种积极、超越、勇敢的精神内涵，在年轻人中具有普遍的影响力，已经逐步成为当下最流行的正能量传递口号。后被玩家赋予一种积极、超越、勇敢的精神内涵，在年轻人中具有普遍的影响力，已经逐步成为当下最流行的正能量传递口号。</p>
+			</div>
+			<img src="http://i3.265g.com/images/201601/201601131710094992.png" class="img2">
+		</section>
+		<section class="section6">
+			<h1 class="title4">业务进展</h1>
+			<p class="text4">后被玩家赋予一种积极、超越、勇敢的精神内涵，在年轻人中具有普遍的影响力，已经逐步成为当下最流行的正能量传递口号。后被玩家赋予一种积极、超越、勇敢的精神内涵，在年轻人中具有普遍的影响力，已经逐步成为当下最流行的正能量传递口号。</p>
+			<p class="text4">后被玩家赋予一种积极、超越、勇敢的精神内涵，在年轻人中具有普遍的影响力，已经逐步成为当下最流行的正能量传递口号。后被玩家赋予一种积极、超越、勇敢的精神内涵，在年轻人中具有普遍的影响力，已经逐步成为当下最流行的正能量传递口号。</p>
+		</section>
+	</section>
+	<script type="text/javascript">
+		var phone = document.querySelector('.phone');
+		window.onscroll = function() {
+			var pos = phone.getBoundingClientRect();
+			console.log(pos.top)
+			if (pos.top <= 600) {
+				var photos = document.querySelectorAll('.photo');
+				photos[0].style.webkitAnimation = 'slide2 0.5s ease-out forwards 0.5s';
+				photos[1].style.webkitAnimation = 'slide2 0.5s ease-out forwards 1s';
+				window.onscroll = null;
+			}
+		}
+	</script>
+</body>
+</html>
